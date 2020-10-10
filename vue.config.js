@@ -1,21 +1,20 @@
 module.exports = {
-	// publicPath: process.env.NODE_ENV === 'production' ? '/na-j/' : '/',
 	publicPath: '/',
-		pwa: {
-			name: 'NA-J',
-			themeColor: '#202020',
-			msTileColor: '#000000',
-			appleMobileWebAppCapable: 'yes',
-			appleMobileWebAppStatusBarStyle: '#202020'
-		},
-		css: {
-			loaderOptions: {
-				sass: {
-					prependData: `
-						@import "@/Styles/Variables.scss";
-						@import "@/Styles/Keyframes.scss";
-					`
-				}
+	pwa: {
+		name: 'Na-J',
+		themeColor: '#ffffff',
+		msTileColor: '#ffffff',
+		appleMobileWebAppCapable: 'yes',
+		appleMobileWebAppStatusBarStyle: '#ffffff'
+	},
+	css: {
+		loaderOptions: {
+			sass: {
+				prependData: `
+					@import "@/Styles/Variables.scss";
+					@import "@/Styles/Keyframes.scss";
+				`
 			}
 		}
+	}
 };
