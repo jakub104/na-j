@@ -3,7 +3,6 @@
 		<img class="logo" alt="NA-J logo" :src="logo">
 		<div class="description">
 			Strona w budowie...
-			<hr class="line" />
 		</div>
 	</div>
 </template>
